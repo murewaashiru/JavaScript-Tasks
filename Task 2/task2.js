@@ -9,7 +9,7 @@ function interestCalculator(array) {
   let rate = 0;
   const interestData = [];
   for (let i of array) {
-    if (i.Principal >= 2500 && i.time > 1 && i.time <= 3) {
+    if (i.Principal >= 2500 && i.time > 1 && i.time < 3) {
       rate = 3;
     } else if (i.Principal >= 2500 && i.time >= 3) {
       rate = 4;
