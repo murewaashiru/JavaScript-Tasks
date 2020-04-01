@@ -1,4 +1,4 @@
-const object = [
+const data = [
   { Principal: 2500, time: 1.8 },
   { Principal: 1000, time: 5 },
   { Principal: 3000, time: 1 },
@@ -29,4 +29,4 @@ function interestCalculator(array) {
   console.log(interestData);
   return interestData;
 }
-interestCalculator(object);
+interestCalculator(data);
