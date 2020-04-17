@@ -31,5 +31,8 @@ function Checker(number) {
   return array;
 }
 
-const checkmate = 30;
+let checkmate = 100;
+Checker(checkmate);
+
+checkmate = 30;
 Checker(checkmate);
