@@ -99,7 +99,7 @@
   const submitButton = document.getElementById('submit');
   const myQuestions = [
     {
-      question: 'What year was endgame made?',
+      question: 'In what year was Avengers: Endgame released?',
       answers: {
         A: '2018',
         B: '2019',
@@ -108,11 +108,11 @@
       correctAnswer: 'B',
     },
     {
-      question: 'Which one of these is a JavaScript package manager?',
+      question: 'What is the first movie made in colour?',
       answers: {
-        A: 'Node.js',
-        B: 'TypeScript',
-        C: 'npm',
+        A: 'Cupid Angling',
+        B: 'Wizard of Oz',
+        C: `Edwardians' Kinemacolor's footage of his children`,
       },
       correctAnswer: 'C',
     },
@@ -146,7 +146,7 @@
     },
   ];
 
-  // Kick things off
+  // Start things
   buildQuiz();
 
   // Pagination
